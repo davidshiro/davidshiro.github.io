@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html>
-	<head><title>Counter</title></head>
+	<head><title>David Shiraki</title></head>
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<script type="text/javascript" src="counter.js" defer></script>
-	<script type="text/javascript" src="image.js" defer></script>
 	<body>
 		<section class="header">
-			<h1>david shiraki</h1>
-			<a href="google.com">google lol</a>  
-			<a href="#contact">Contact</a>
-		</section>		
-		<section class="overlay">
-			<div><p>I'm a developer currently living in Dallas, Texas.</p></div>
-			<span>
-				<h1 id="counter"></h1>
-				<button type="submit" value="+" name="plus" id="plus" onclick="plus()">+</button>
-				<br>
-				<br>
-				<button type="submit" value="-" name="minus" id="minus" onclick="minus()">-</button>
-			</span>
-		</section>
-		<section class="overlay">
-			<label for="img">Select image:</label>
-			<input type="file" id="img" name="img" accept="image/*" onchange="imgUploads(this)">
-			<img id="upload" src="#" alt="uploaded image" hidden/>
+			<h1><a href="index.html">david shiraki</a></h1>
+		</section>	
+		<div class="navbar">
+			<div class="navtext">
+				<a href="projects.html">Projects</a>
+				<a href="#contact">Contact</a>
+			</div>
+		</div>	
+		<div class="overlay">
+			<div class="overlay_flex">
+				<div class="summary">
+					<p>My name is David Shiraki, and I am a developer currently living in Dallas, Texas and this is my digital portfolio. I have experience in a bunch of languages, some of which I'll list below:</p>
+					<ul>
+						<li>Python</li>
+						<li>Java</li>
+						<li>C, C++</li>
+						<li>Racket, Haskell</li>
+					</ul>
+					<p>I've also used various technologies in my <a href="projects.html">projects</a> such as OpenCV, Tesseract, and React. Additionally, I have experience working in an Agile development environment, and have project management experience.</p>
+				</div>
+				<div class="counter">
+					<button type="submit" value="+" name="plus" id="plus" onclick="plus()">+</button>
+					<br>
+					<br>
+					<b id="counter_number" class="counter_number"></b>
+					<br>
+					<br>
+					<button type="submit" value="-" name="minus" id="minus" onclick="minus()">-</button>
+				</div>
+			</div>
+		</div>
+		<section id="contact" class="contact">
+			<p><b>you can also find me on these websites:</b></p>
+			<a href="https://www.linkedin.com/in/david-shiraki-9a99a328/"><img src="images/logos/linkedin.png"></a>
+			<a href="https://github.com/davidshiro"><img src="images/logos/github.png"></a>
 		</section>
 	</body>
 </html>

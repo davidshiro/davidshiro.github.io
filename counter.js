@@ -1,4 +1,4 @@
-const counter = document.getElementById('counter');
+const counter = document.getElementById('counter_number');
 var count = 0;
 
 counter.innerHTML = count;

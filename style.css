@@ -1,54 +1,149 @@
 body {
-	background-color: #2b2430;
-	color: #f0d6ff;
-	font-family: Helvetica;
-  }
-  
-  form {
+	background-color: #f0e8cc;
+	font-family: Helvetica, sans-serif;
+}
+
+form {
 	line-height: 25px;
-  }
-  
-  h1 {
-	font-size: 3em;
+}
+
+.counter_number {
+	font-size: 300%;	
 	overflow: break;
-  }
+}
 
-  .header {
-	margin-left: 10%;
-	color: #f0d6ff;
-  }
+.header {
+	margin-left: 10%;	
+	color: #297ca6;
+	text-decoration: none;
+}
 
-  .header a { 
-	float: right;
-	color: #f0d6ff;
+.header a {
+	color:#297ca6;
+	text-decoration: none;
+}
+
+.header a:visited {
+	color:#297ca6;
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: #010d33;
+	overflow: hidden;
+	margin-left: 8%;
+	margin-right: 8%;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.navbar a {
+	float: left;
+	color: #93B5C6;
 	text-decoration: none;
 	text-align: center;
-  }
-
-  button {
-	color:#4c4e48;
-	background-color: #f0d6ff;
-	font-size: 1000%;
-	border: none;
-	padding: 10%, 100%;
-	border-radius: 10%;
-	transition-duration: 0.2s;
-	width: 186px;
-  }
-
-  button:hover {
-	color: #94ce6e;
-	background-color: #34293a;
-  }
-  
-  .overlay {
-	width: 80%;
-	min-width: 30%;
-	margin: 3% auto;
+	padding: 15px 15px;
 	display: block;
+}
+
+.navbar a:hover {
+	font-size: 105%;
+	color: #010d33;
+	background-color: #93B5C6;
+}
+
+.navtext {
+	margin-left: 1.75%;
+}
+
+
+.counter {
+	width: 200px;
+	text-align: center;
+	align-self: center;
+}
+
+.counter button {	
+	color:#010d33;	
+	background-color: #f0e8cc;	
+	font-size: 500%;	
+	border: none;	
+	border-radius: 10%;	
+	transition-duration: 0.2s;	
+	width: 50%;
+}
+.counter button:hover {	
+	color: #eed889;	
+	background-color: #010d33;
+}
+
+.overlay {	
+	width: 80%;	
+	overflow: hidden;
+	min-width: 30%;
+	margin-left: 8%;
 	padding: 2%;
 	height: 70%;
-	background-color: #665f6b;
-	border-radius: 40px;
-	text-align: center;
-  }
+	background-color: #ccc3a3;
+	border-radius: 0px 0px 40px 40px;
+}
+
+.overlay_flex {
+	display: flex;
+}
+
+.summary {
+	font-family: Georgia, serif;
+	color: #f0e8cc;
+	flex: 1;
+	text-align: left;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: #010d33;
+}
+
+
+.summary h1 {
+	margin: 3%;
+}
+
+.summary p {
+	margin: 3%;
+}
+
+.summary a:visited {
+	color:#b1a98f;
+}
+
+.summary a:link {
+	color:#b1a98f;
+}
+
+.summary ul {
+	margin: 3%;
+}
+
+
+.contact {
+	text-align: right;
+	margin-right: 10%;
+	color:#297ca6;
+}
+
+.contact img {
+	width: 50px;
+	height: 50px;
+	color:#93B5C6;
+}
+
+.project {
+	display: flex;
+}
+
+.project img {
+	width: 20%;
+	min-width: 10%;
+}
+
+.project_summary {
+	flex: 2;
+}
